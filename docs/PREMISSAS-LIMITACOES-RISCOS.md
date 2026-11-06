@@ -14,12 +14,15 @@
 - Os seis vídeos são demonstrativos: slides sem narração, com 48 segundos cada. Devem ser trocados pelos vídeos finais da equipe no painel administrativo.
 - O conteúdo jurídico é um resumo educativo e não passou por revisão de advogado.
 - Esta implementação foi preparada como MVP independente para demonstração. A integração com outras versões ou contribuições da equipe não foi verificada nesta auditoria.
-- A equipe havia escolhido FastAPI, mas esta versão usa Starlette. O motivo está em [ARQUITETURA.md](ARQUITETURA.md).
+- A API utiliza Starlette. FastAPI foi considerado apenas no planejamento inicial; não é usado nesta versão.
 - Não há recuperação de senha nem troca de senha.
 - Vídeos criados no painel não têm envio de miniatura. A interface mostra uma capa gerada com título e categoria.
 - O player usa os controles nativos do navegador, sem legendas ou troca de qualidade.
 - `frontend/package.json` não tem arquivo de travamento, porque o ambiente de construção não tinha acesso à internet.
 - A duração automática no envio depende do `ffprobe`. Sem ele, a duração é preenchida na primeira reprodução.
+
+- A demonstração pública está disponível em https://guia-gestao-terceiros.onrender.com/ (Render Free). Banco e uploads usam armazenamento efêmero, sem garantia de persistência após reinício ou deploy; a instância pode suspender por inatividade.
+- Não foram feitos testes de carga ou validação de escalabilidade em produção.
 
 ## Riscos
 
