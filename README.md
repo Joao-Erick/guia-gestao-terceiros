@@ -7,6 +7,11 @@ Projeto do Hack Garanhuns Tech 2026, Desafio 2: Streaming Platform Engineering.
 
 ## Demonstração online (Render)
 
+**[ABRIR A PLATAFORMA — DEMONSTRAÇÃO ONLINE](https://guia-gestao-terceiros.onrender.com/)**
+
+Acesse pelo navegador, sem instalar Python. Na primeira visita, o serviço gratuito pode levar mais de 50 segundos para responder. Use somente as contas demonstrativas abaixo; o ambiente não tem persistência garantida.
+
+
 Para disponibilizar a aplicação no navegador, sem instalação local:
 
 1. Entre em [Render](https://dashboard.render.com/blueprints) e escolha **New Blueprint Instance**.
