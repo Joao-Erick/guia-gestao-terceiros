@@ -9,6 +9,14 @@ Projeto do Hack Garanhuns Tech 2026, Desafio 2: Streaming Platform Engineering.
 
 **[ABRIR A PLATAFORMA — DEMONSTRAÇÃO ONLINE](https://guia-gestao-terceiros.onrender.com/)**
 
+### Acesso rápido para a banca
+
+- **E-mail:** `assinante@demo.guia.test`
+- **Senha:** `Demo@2026`
+- **Perfil:** assinante demonstrativo, com acesso ao catálogo, diagnóstico, trilhas e progresso.
+
+Estas credenciais são fictícias e destinam-se exclusivamente à avaliação do MVP. Não insira dados reais. O serviço gratuito pode demorar para iniciar e não garante persistência dos dados.
+
 Acesse pelo navegador, sem instalar Python. Na primeira visita, o serviço gratuito pode levar mais de 50 segundos para responder. Use somente as contas demonstrativas abaixo; o ambiente não tem persistência garantida.
 
 
