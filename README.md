@@ -9,7 +9,7 @@ Projeto do Hack Garanhuns Tech 2026, Desafio 2: Streaming Platform Engineering.
 
 Requisito: Python 3.10 ou superior. O frontend já vem compilado, então Node.js não é necessário para rodar.
 
-No Windows, dê dois cliques em `iniciar.bat`, ou use os comandos abaixo:
+No Windows, dê dois cliques em `iniciar.bat` (ele cria o ambiente virtual, instala as dependências e inicia o servidor), ou use os comandos abaixo:
 
 ```bash
 python -m venv .venv
@@ -79,17 +79,9 @@ docs             documentação da entrega
 - [Premissas, limitações, riscos e próximos passos](docs/PREMISSAS-LIMITACOES-RISCOS.md)
 - [Roteiro do pitch de 3 minutos](docs/ROTEIRO-PITCH.md)
 
-## Publicar no GitHub
+## Entrega do hackathon
 
-Crie um repositório vazio no GitHub e execute na pasta do projeto:
-
-```bash
-git init -b main
-git add .
-git commit -m "Entrega do MVP Guia para a Gestão de Terceiros"
-git remote add origin https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
-git push -u origin main
-```
+Este repositório reúne o código-fonte, as instruções de execução e a documentação técnica do MVP. Para avaliação, siga **Como executar**, utilize as contas demonstrativas e consulte os documentos em `docs/`. A aplicação foi testada em Linux; a execução no Windows ainda precisa de validação prática.
 
 ## Conteúdo
 
