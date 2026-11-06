@@ -10,7 +10,7 @@
 | Frontend | React compilado com esbuild | Um único processo serve a API e a interface |
 | Senhas | scrypt, da biblioteca padrão | Hash seguro sem dependência nativa |
 
-A equipe havia escolhido FastAPI. Como o pacote não estava disponível no ambiente de construção, usamos Starlette, que é a base do FastAPI, para entregar código realmente testado. A troca é mecânica: as rotas e as regras ficam em funções simples, e o FastAPI aceita os mesmos modelos Pydantic.
+A API implementada utiliza **Starlette**, não FastAPI. FastAPI foi considerado no planejamento inicial, mas não é uma dependência desta versão. A validação dos dados utiliza Pydantic. Uma eventual migração de framework seria uma evolução futura, não necessária para executar o MVP.
 
 ## Fluxo de uma reprodução
 
