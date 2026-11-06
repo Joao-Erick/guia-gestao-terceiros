@@ -5,6 +5,19 @@ O streaming é o produto principal. O diferencial é um diagnóstico guiado por 
 
 Projeto do Hack Garanhuns Tech 2026, Desafio 2: Streaming Platform Engineering.
 
+## Demonstração online (Render)
+
+Para disponibilizar a aplicação no navegador, sem instalação local:
+
+1. Entre em [Render](https://dashboard.render.com/blueprints) e escolha **New Blueprint Instance**.
+2. Conecte o GitHub e selecione este repositório. O arquivo [render.yaml](render.yaml) configura o serviço web.
+3. Confirme a criação e aguarde o deploy. Abra a URL `https://...onrender.com` informada pelo Render.
+4. Verifique `/api/health`, login, diagnóstico, catálogo e reprodução de vídeo.
+
+**Atenção:** o plano gratuito do Render pode suspender a instância por inatividade e utiliza armazenamento efêmero. Contas, progresso e vídeos enviados pelo painel podem desaparecer após reinicializações ou novos deploys. Os vídeos demonstrativos incluídos no GitHub permanecem no código e são recriados no início. Use somente dados fictícios, não informações reais. Para persistência, configure armazenamento e banco adequados em um plano compatível.
+
+O repositório GitHub mostra o **código**, não executa a aplicação automaticamente. Para avaliação rápida, prefira a URL do Render depois que o deploy estiver concluído.
+
 ## Como executar
 
 Requisito: Python 3.10 ou superior. O frontend já vem compilado, então Node.js não é necessário para rodar.
@@ -81,7 +94,7 @@ docs             documentação da entrega
 
 ## Entrega do hackathon
 
-Este repositório reúne o código-fonte, as instruções de execução e a documentação técnica do MVP. Para avaliação, siga **Como executar**, utilize as contas demonstrativas e consulte os documentos em `docs/`. A aplicação foi testada em Linux; a execução no Windows ainda precisa de validação prática.
+Este repositório reúne o código-fonte, as instruções de execução e a documentação técnica do MVP. Para avaliação, siga **Como executar**, utilize as contas demonstrativas e consulte os documentos em `docs/`. A aplicação teve testes automatizados registrados em Linux e foi iniciada manualmente no Windows pelo responsável pelo projeto. O deploy online precisa de validação separada.
 
 ## Conteúdo
 
