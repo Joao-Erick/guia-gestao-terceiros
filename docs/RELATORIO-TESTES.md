@@ -48,7 +48,7 @@ As saídas completas estão em [saida-testes-api.txt](saida-testes-api.txt) e [s
 
 ## O que não pôde ser verificado
 
-- **Windows:** a aplicação foi executada apenas em Linux. O `iniciar.bat` não foi executado.
+- **Windows:** a inicialização local pelo `iniciar.bat` foi confirmada manualmente pelo responsável em 06/11/2026. Os 58 testes automatizados registrados foram executados em Linux, não em Windows.
 - **Outros navegadores:** Firefox, Safari, Edge e Chrome em celular real não foram testados. O teste móvel emula um celular no Chromium.
 - **Áudio:** os vídeos não têm som.
 - **`npm install` e `pip install` a partir da internet:** o ambiente não tinha acesso aos registros de pacotes. As versões foram fixadas conforme o que estava instalado.
