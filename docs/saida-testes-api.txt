@@ -1,0 +1,41 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.18, pytest-9.1.1, pluggy-1.6.0 -- /usr/local/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/claude/guia-gestao-terceiros
+plugins: platformdirs-4.13.5, anyio-4.15.1
+collecting ... collected 32 items
+
+backend/tests/test_api.py::test_cadastro_cria_conta_basica_com_teste PASSED
+backend/tests/test_api.py::test_cadastro_rejeita_email_duplicado_e_dados_invalidos PASSED
+backend/tests/test_api.py::test_login_logout_invalida_sessao_no_servidor PASSED
+backend/tests/test_api.py::test_cookie_e_httponly PASSED
+backend/tests/test_api.py::test_senha_errada_e_limite_de_tentativas PASSED
+backend/tests/test_api.py::test_perfil_persiste PASSED
+backend/tests/test_api.py::test_admin_e_exclusivo PASSED
+backend/tests/test_api.py::test_busca_por_titulo_acento_e_categoria PASSED
+backend/tests/test_api.py::test_catalogo_nao_expoe_arquivo PASSED
+backend/tests/test_api.py::test_stream_entrega_mp4_com_range PASSED
+backend/tests/test_api.py::test_bloqueio_premium_no_backend PASSED
+backend/tests/test_api.py::test_detalhe_bloqueado_nao_entrega_url PASSED
+backend/tests/test_api.py::test_midia_nao_tem_rota_publica PASSED
+backend/tests/test_api.py::test_progresso_bloqueado_para_plano_sem_acesso PASSED
+backend/tests/test_api.py::test_progresso_persiste_entre_sessoes_e_gera_historico PASSED
+backend/tests/test_api.py::test_conclusao_tira_de_continuar_e_reinicia PASSED
+backend/tests/test_api.py::test_progresso_e_limitado_a_duracao_e_validado PASSED
+backend/tests/test_api.py::test_progresso_isolado_por_usuario PASSED
+backend/tests/test_api.py::test_todo_caminho_do_diagnostico_tem_trilha_valida PASSED
+backend/tests/test_api.py::test_respostas_diferentes_geram_recomendacoes_diferentes PASSED
+backend/tests/test_api.py::test_perguntas_sao_adaptativas PASSED
+backend/tests/test_api.py::test_diagnostico_recusa_caminho_invalido PASSED
+backend/tests/test_api.py::test_trilha_exige_login_salva_e_nao_duplica PASSED
+backend/tests/test_api.py::test_trilha_de_outro_usuario_nao_pode_ser_apagada PASSED
+backend/tests/test_api.py::test_admin_crud_video_upload_e_publicacao PASSED
+backend/tests/test_api.py::test_admin_categorias PASSED
+backend/tests/test_api.py::test_admin_libera_assinatura_e_acesso_muda_na_hora PASSED
+backend/tests/test_api.py::test_respostas_de_erro_e_cabecalhos PASSED
+backend/tests/test_api.py::test_injecao_sql_na_busca_nao_altera_dados PASSED
+backend/tests/test_api.py::test_senhas_guardadas_com_hash PASSED
+backend/tests/test_api.py::test_arquivos_estaticos_tem_tipo_explicito PASSED
+backend/tests/test_api.py::test_arquivo_demonstrativo_nao_e_apagado_com_o_registro PASSED
+
+============================== 32 passed in 2.36s ==============================

@@ -1,0 +1,35 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.18, pytest-9.1.1, pluggy-1.6.0 -- /usr/local/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/claude/guia-gestao-terceiros
+plugins: platformdirs-4.13.5, anyio-4.15.1
+collecting ... collected 26 items
+
+e2e/test_fluxos.py::test_01_cadastro_de_novo_usuario PASSED
+e2e/test_fluxos.py::test_01b_cadastro_mostra_erros_de_validacao PASSED
+e2e/test_fluxos.py::test_02_login_logout_e_sessao_persistente PASSED
+e2e/test_fluxos.py::test_02b_login_incorreto PASSED
+e2e/test_fluxos.py::test_03_permissoes_de_administrador_e_assinante PASSED
+e2e/test_fluxos.py::test_04_busca PASSED
+e2e/test_fluxos.py::test_05_reproducao_real_de_video PASSED
+e2e/test_fluxos.py::test_05b_avancar_no_video_usa_range PASSED
+e2e/test_fluxos.py::test_06_bloqueio_de_conteudo_exclusivo PASSED
+e2e/test_fluxos.py::test_06b_visitante_precisa_entrar PASSED
+e2e/test_fluxos.py::test_06c_teste_expirado PASSED
+e2e/test_fluxos.py::test_07_08_09_progresso_retomada_e_historico PASSED
+e2e/test_fluxos.py::test_07b_saida_da_pagina_salva_progresso PASSED
+e2e/test_fluxos.py::test_10_11_diagnostico_sem_login_com_caminhos_diferentes PASSED
+e2e/test_fluxos.py::test_10b_voltar_no_diagnostico_muda_a_pergunta PASSED
+e2e/test_fluxos.py::test_12_salvar_trilha_apos_criar_conta PASSED
+e2e/test_fluxos.py::test_12b_salvar_trilha_com_conta_existente PASSED
+e2e/test_fluxos.py::test_admin_gerencia_conteudo_pela_interface PASSED
+e2e/test_fluxos.py::test_admin_ativa_assinatura_e_libera_conteudo PASSED
+e2e/test_fluxos.py::test_13_responsividade_rotas_publicas[1440-900] PASSED
+e2e/test_fluxos.py::test_13_responsividade_rotas_publicas[1024-768] PASSED
+e2e/test_fluxos.py::test_13_responsividade_rotas_publicas[768-1024] PASSED
+e2e/test_fluxos.py::test_13_responsividade_rotas_publicas[390-844] PASSED
+e2e/test_fluxos.py::test_13_responsividade_rotas_publicas[320-640] PASSED
+e2e/test_fluxos.py::test_13b_mobile_fluxo_autenticado_e_capturas PASSED
+e2e/test_fluxos.py::test_capturas_desktop PASSED
+
+============================= 26 passed in 53.57s ==============================
