@@ -13,6 +13,15 @@ Projeto do Hack Garanhuns Tech 2026, Desafio 2: Streaming Platform Engineering.
 
 - **E-mail:** `assinante@demo.guia.test`
 - **Senha:** `Demo@2026`
+- **Perfil:** assinante demonstrativo, para testar catálogo, reprodução, diagnóstico e trilhas.
+
+Estas são credenciais **fictícias e públicas**, destinadas exclusivamente à avaliação. Não use dados reais neste ambiente. A conta administrativa não é necessária para o teste básico.
+
+
+### Acesso rápido para a banca
+
+- **E-mail:** `assinante@demo.guia.test`
+- **Senha:** `Demo@2026`
 - **Perfil:** assinante demonstrativo, com acesso ao catálogo, diagnóstico, trilhas e progresso.
 
 Estas credenciais são fictícias e destinam-se exclusivamente à avaliação do MVP. Não insira dados reais. O serviço gratuito pode demorar para iniciar e não garante persistência dos dados.
