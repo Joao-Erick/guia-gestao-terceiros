@@ -1,0 +1,22 @@
+# Ambientes e caches Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Dependências e caches Node
+node_modules/
+frontend/node_modules/
+# Dados locais e credenciais
+.env
+.env.*
+!.env.example
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+# Temporários e arquivos do sistema
+.DS_Store
+Thumbs.db
+*.log
