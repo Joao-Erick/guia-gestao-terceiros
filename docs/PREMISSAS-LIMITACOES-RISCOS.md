@@ -13,7 +13,7 @@
 
 - Os seis vídeos são demonstrativos: slides sem narração, com 48 segundos cada. Devem ser trocados pelos vídeos finais da equipe no painel administrativo.
 - O conteúdo jurídico é um resumo educativo e não passou por revisão de advogado.
-- O repositório e o frontend da equipe não estavam acessíveis, então esta entrega não integra esse código.
+- Esta implementação foi preparada como MVP independente para demonstração. A integração com outras versões ou contribuições da equipe não foi verificada nesta auditoria.
 - A equipe havia escolhido FastAPI, mas esta versão usa Starlette. O motivo está em [ARQUITETURA.md](ARQUITETURA.md).
 - Não há recuperação de senha nem troca de senha.
 - Vídeos criados no painel não têm envio de miniatura. A interface mostra uma capa gerada com título e categoria.
